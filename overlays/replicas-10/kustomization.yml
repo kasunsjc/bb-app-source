@@ -4,4 +4,4 @@ resources:
 - ../../kustomize
 replicas:
 - name: block-buster
-  count: 100
+  count: 1
