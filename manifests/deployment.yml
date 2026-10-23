@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: acrfluxcdearn.azurecr.io/bb-app-flux-demo:7.8.0 #{"$imagepolicy":"flux-system:8-demo-image-policy"}
+          image: acrfluxcdearn.azurecr.io/bb-app-flux-demo:7.9.0@sha256:2fdc7907f21b92cd89e59815ebfa3fec8492d9f42759a8aa710a3b38ef0bebf4 #{"$imagepolicy":"flux-system:8-demo-image-policy"}
           imagePullPolicy: Always
           resources:
             requests:
